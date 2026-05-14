@@ -48,6 +48,25 @@ python cli.py document.md
 python cli.py document.md -o output.docx
 ```
 
+### Windows 快捷方式
+
+下载 [md2word.exe](https://github.com/dragon3385/markdown2word_claude_GLM/releases/latest) 后，除了命令行调用，还支持以下快捷用法：
+
+**拖拽转换**
+
+将 `.md` 文件直接拖拽到 `md2word.exe` 图标上，即可完成转换。输出的 `.docx` 文件自动保存在源文件同目录下。
+
+**添加到右键"发送到"菜单**
+
+```bash
+shell:sendto
+```
+
+
+1. 按 `Win + R`，输入 ```shell:sendto```，回车打开"发送到"文件夹
+2. 将 `md2word.exe` 的快捷方式放入该文件夹（右键拖拽 → 在此处创建快捷方式）
+3. 之后右键任意 `.md` 文件 → **发送到** → **md2word** 即可完成转换
+
 ### 参数说明
 
 | 参数 | 说明 |
