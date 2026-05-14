@@ -19,6 +19,9 @@ build/
 # Tests
 tests/
 
+# Documents
+*.wps
+
 # OS
 Thumbs.db
 .DS_Store
