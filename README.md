@@ -43,7 +43,9 @@ pip install -r requirements.txt
 ```bash
 # 最简用法：输入 .md 文件，自动生成同名 .docx 文件
 python cli.py document.md
+```
 
+```bash
 # 指定输出路径
 python cli.py document.md -o output.docx
 ```
@@ -58,14 +60,16 @@ python cli.py document.md -o output.docx
 
 **添加到右键"发送到"菜单**
 
+1. 按 `Win + R`，输入
+
 ```bash
 shell:sendto
 ```
 
+   回车打开"发送到"文件夹
 
-1. 按 `Win + R`，输入 ```shell:sendto```，回车打开"发送到"文件夹
-2. 将 `md2word.exe` 的快捷方式放入该文件夹（右键拖拽 → 在此处创建快捷方式）
-3. 之后右键任意 `.md` 文件 → **发送到** → **md2word** 即可完成转换
+1. 将 `md2word.exe` 的快捷方式放入该文件夹（右键拖拽 → 在此处创建快捷方式）
+2. 之后右键任意 `.md` 文件 → **发送到** → **md2word** 即可完成转换
 
 ### 参数说明
 
